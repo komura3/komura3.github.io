@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(224, 224, 224);
+}
+.center{
+    text-align: center;
+  }
+  img.example1 {
+    width: 300px;
+    height: 325px;
+    }
+   p.center {
+        font-family: "Arial", "メイリオ";
+        }  
+   h1.center {
+       font-family:"Arial";
+   }     
+   h2.center {
+    font-family:"Arial";
+} 
+.icon::before {
+    display: inline-block;
+    margin-right: .5em;
+    font-family: fontawesome;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  footer {
+    background-color: #474a54;
+    padding: 4vw 12vw;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
